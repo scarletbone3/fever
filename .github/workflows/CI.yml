@@ -18,4 +18,9 @@ jobs:
     - run: npm i
     - run: npm run lint
     - run: npm test -- --coverage
+    - run: npm run doc
     - run: npx codecov
+    - name: Documetation
+      uses: peaceiris/actions-gh-pages@v3
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
