@@ -1,0 +1,21 @@
+{
+  "name": "fever",
+  "version": "1.0.0",
+  "description": "Simple Node.js framework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarletbone3/fever.git"
+  },
+  "author": "scarletbone3",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "jest": "^27.5.0",
+    "supertest": "^6.2.2"
+  }
+}
